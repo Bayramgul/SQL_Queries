@@ -1,0 +1,18 @@
+-- SQL : Structured Query Language
+-- Each database has same objects such as 
+-- Tables: to store data,
+--  Views:virtual table, we can combine data from multiple tables and put them in a view, this is good for reports
+-- Stored Procedures: small programs we built in our database
+-- RELATIONAL DATABASES:Multiple tables are related or linked to each other using internally linked system
+-- *** parent table and child table,1-many relationship
+-- FRONT END:GUI→Graphical User InterfaceGUI→ everything users can see and interact with,user inputs
+-- BACKEND:is where all the data is stored
+-- PRIMARY KEY:Unique identifieer,it's an attribute that identifies all values in a given row, can't be null
+-- FOREIGN KEY:Is existence of PK in another table
+-- COLUMNS-->fields/attributes
+-- ROWS--> records
+-- Shift Command Enter --->for executing code
+-- DISTINCT-->Eliminates all duplicate records in the resultUsed right after the Select Statement 
+-- WHERE-->Conditional statment for restrict or Filter Data.We have to use comparison operators with 
+-- Where Statement in order to limit the rows returned in the results.  
+-- * returns all columns

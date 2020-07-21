@@ -1,0 +1,25 @@
+-- Order by-->used to sort the data result
+-- tools we use in  SQl?--><mysql workbench
+-- why devs use backend data ? to link app to database, 
+-- do frontent devs use sql? no, maybe sometimes, not neccessarily
+-- why we need sql? to check the frontend and backend info connection 
+-- in order to see database what we need to click? database schema
+-- LOGICAL OPERATORs_-----------------MUST BE USED WITH --> WHERE clause
+--  Is Null operator--> we can use with WHERE clause to choose the column with null value
+-- AND : All conditions must be true, use different columns good practice
+-- OR:any condition should be true, at least 1 
+-- Not: excludes specified info, display all the info from job title except Bakery Chef;
+-- 1.way select *from ohrm_job_title where job_title !=‘Bakery Chef’;
+-- or
+-- 2.way select * from ohrm_job_title where not job_title =‘Bakery Chef’;  
+-- NOT Operator – reverse condition
+-- % creates a pattern 
+-- 'a%' starts with a, 
+-- '%a' ends with a, 
+-- 'ja%'starts with ja and ends with a
+-- IN OperatorPicks a range of multiple options from the same column
+-- Allows you to specify multiple values in a Where Clause.It is a shorthand for OR operator
+
+-- ---------Arithmetic Opereators--------
+-- +-*/ we can use arithmetic operators and create new columns
+-- we can give or change the name of the column using  ---->as discounts, use '' or"" to have space in btw names
